@@ -1,40 +1,67 @@
 html, 
 body {
     height: 100%;
-    background-image: url(../images/vertical-waves.png)
+    background-image: url("images/vertical-waves.png");
 }
 
 .container {
     background-color: #ffffff;
+    position: relative;
+    max-height: 700px;
+    overflow: scroll;
 }
 
 .me {
     margin: 5px;
+    margin-bottom: 30px;
     width: 250px;
     height: 250px;
 }
 
+h2,
+.logo {
+  color: #0282ae;
+  font-weight: 700;
+}
 
 
+/* portfolio */
+.card {
+  margin: auto;
+  margin-bottom: 8px;
+}
 
+.robi {
+  width: 200px;
+  height: 150px;
+}
+.card-text {
+  text-align: center;
+  background-color: #0282ae;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+}
 
+/* footer */
 
+.footer {
+  position: absolute;
+  background-color: #0282ae;
+  width: 100%;
+  height: 20px;
+  clear: both;
+  bottom: 0;
+}
 
-/* does this help toggle the menu bar */
-
-@media only screen and (max-width: 411px) {
-    .nav>li>a.dropdown-toggle {
-      display: none;
-    }
-    .nav .dropdown-menu {
-      display:block;
-          position: static;
-      float: none;
-      width: auto;
-      margin-top: 0;
-      background-color: transparent;
-      border: 0;
-      -webkit-box-shadow: none;
-      box-shadow: none;
-    }
+@media screen and (max-width: 750px) {
+  .container {
+    width: 90%;
   }
+
+  .me {
+    width: 150px;
+    height: 150px;
+    margin-left: 94.945px;
+  }
+}
