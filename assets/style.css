@@ -58,12 +58,21 @@ h2,
 @media screen and (max-width: 750px) {
   .container {
     width: 90%;
-    max-height: 95%;
   }
 
   .me {
     width: 150px;
     height: 150px;
     margin-left: 94.945px;
+  }
+
+  html, 
+  body {
+      background-image: none;
+      background-color: #0282ae;
+    }
+  
+  .footer {
+      height: 0;
   }
 }
