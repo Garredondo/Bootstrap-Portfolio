@@ -32,10 +32,7 @@ h2,
   margin-bottom: 8px;
 }
 
-.robi {
-  width: 100px;
-  height: 150px;
-}
+
 .card-text,
 .card-title {
   text-align: center;
@@ -44,6 +41,23 @@ h2,
   font-weight: 600;
   padding: 10px;
 }
+
+.card-body{
+  text-align: center;
+}
+
+/* contact page */
+.fa-linkedin,
+.fa-github {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-info{
+  padding: 10px;
+}
+
+
 
 
 /* footer */
